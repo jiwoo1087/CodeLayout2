@@ -8,4 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="hanwhayellow">#FF9800</color>
+    <color name="btn1">#D3BBFF</color>
+    <color name="btn2">#CBADFF</color>
+    <color name="btn3">#B084FF</color>
+    <color name="btn4">#8144EC</color>
+
 </resources>
