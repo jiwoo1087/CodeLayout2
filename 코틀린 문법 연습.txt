@@ -1,0 +1,61 @@
+fun main() {
+    val kotlin = "🙂"
+    println(kotlin)
+    	
+//     var two = Array<IntArray>(2, {IntArray(4,{3})})
+    
+//     	for((i, row) in two.withIndex()){
+//             for((j, col) in row.withIndex()){
+//                  print("($i, $j) = $col\t")
+//             }
+//             println()
+// 		}
+//     var one = ArrayList<Int>(4)
+//     one.add(10)
+//     one.add(20)
+//     var sum = one.get(0)+one.get(1)
+		
+//     var arrList = ArrayList<Int>(3)
+//     arrList.add(10)
+//     arrList.add(20)
+//     arrList.add(30)
+//     arrList.add(40)
+//     arrList.add(50)
+       
+        
+//     var sum = 0
+//     for(num in arrList){
+//         sum += num
+//     }
+    
+//     for(i in 1..10 step 1){
+//         print("$i::")
+//     }
+    
+//     println()
+//     var leng = 5;
+//     for(j in 1..leng)
+//     	print("$j/");
+    
+//     println()
+//     for(i in 1 until leng)
+//     	print("$i|");
+
+        var one : IntArray = intArrayOf(10,20,30)
+        for(value in one){
+            print(value)
+        }
+        
+        println()
+        var two : Array<String> = arrayOf("하나","둘","셋")
+        for(i in 0..2 step 1){
+            print(two[i])
+        }
+        println()
+        var k : Int = 0
+        while (k < two.size){
+            print(two[k])
+            k++
+        }
+    
+}
